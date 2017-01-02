@@ -1,0 +1,196 @@
+@font-face {
+	src:url(fonts/proximanova.ttf);
+	font-family:'proxima nova';
+}
+
+@font-face {
+	src:url(fonts/product sans.ttf);
+	font-family:'product sans';
+}
+	* {
+	--main-text:#607D8B;
+	--desat-text:#8397a0;
+}
+
+.labels {
+	--a:#e91e63;
+	--b:#00bcd4;
+	--c:#8bc34a;
+	--d:#ffc107;
+	--e:#9c27b0;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-align: center;
+}
+body,html {
+	overflow: hidden;
+	height:100%;
+	width:100%;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none; 
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    user-select: none; 
+	font-family: Proxima Nova;
+}
+#home {
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	filter: brightness(45%);
+	height:100%;
+	width:100%;
+	z-index: -1;
+	position: absolute;
+}
+#load {
+	height:100%;
+	width:100%;
+	background:#fff;
+	z-index:1000;
+}
+#search input {
+	padding:10px;
+	font-family: Product Sans;
+	height:25px;
+	font-size:16px;
+	border:1px solid #f1f1f1;
+	color:var(--desat-text) !important;
+	transition: all 0.4s;
+}
+#search input:focus {
+	box-shadow: 0px 0px 10px #d8d8d8;
+	transition: all 0.4s;
+	color:var(--main-text) !important;
+}
+#search input:focus::-moz-placeholder {
+	color:#1d4059;
+	transition: all 0.4s;
+}
+#search input::-moz-placeholder {
+	color:#4b4949;
+	transition: all 0.4s;
+}
+#contain {
+	position: relative;
+	top:50%;
+	transform:translateY(-50%);
+	text-align: center;
+}
+li, ul {
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+#links {
+	width:75%;
+	margin:0 auto;
+	padding-top:50px;
+	height:200px;
+	text-align: center;
+}
+#links > ul {
+	display: flex;
+	align-content: space-around;
+	flex-flow: nowrap;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: center !important;
+}
+#links > ul >li {
+	display: inline-block;
+	flex:1;
+	flex-grow: 1;
+	flex-shrink:1;
+	flex-basis: 0;
+	justify-content:flex-start;
+	align-content: center;
+	align-self: flex-start;
+	margin:30px;
+}
+.material-icons {
+	background:#fff;
+	padding: 35px;
+	margin-top:-25px;
+	width:100%;
+	border-radius: 50%;
+	height:25px;
+	width:25px;
+	margin-bottom:10px;
+}
+.labels {
+	cursor: pointer;
+}
+.box {
+	box-shadow: 0px 0px 10px #303030;
+	display: none;
+	background:#fff;
+	width: 100%;
+	border-radius: 5px;
+	position: relative;
+	margin: 0 auto;
+	left:-5px;
+	padding:5px;
+	text-align: center;
+	font-size: 14px;
+}
+.box li {
+	padding:7px;
+}
+a, a:visited, a:active, a:focus {
+	text-decoration: none;
+	outline:none;
+	color:var(--main-text);
+	transition: all 0.4s;
+}
+#art .material-icons, #art a:hover {
+	color:var(--a);
+	transition: all 0.4s;
+}
+#school .material-icons, #school a:hover {
+	color:var(--b);
+	transition: all 0.4s;
+}
+#work .material-icons, #work a:hover {
+	color:var(--c);
+	transition: all 0.4s;
+}
+#fun .material-icons, #fun a:hover {
+	color:var(--d);
+	transition: all 0.4s;
+}
+#chan .material-icons, #chan a:hover {
+	color:var(--e);
+	transition: all 0.4s;
+}
+#time {
+	margin-bottom:50px;
+	font-size:40px;
+	color:#fff;
+	cursor: default;
+}
+.smaller {
+	font-size:50%;
+	opacity:90%;
+	margin-left:10px;
+}
