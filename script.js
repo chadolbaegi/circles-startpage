@@ -12,7 +12,7 @@ $(function() {
 });
 
 $('.labels').hover(function() {
-	$(this).children('.box').stop().slideToggle(500);
+	$(this).children('.box').stop().slideToggle(300);
 });
 
 var winwid = $(window).width();

@@ -55,6 +55,7 @@ body,html {
 }
 #home {
 	background-size: cover;
+	background-size: cover;
 	background-repeat:no-repeat;
 	background-attachment: fixed;
 	filter: brightness(45%);
@@ -76,20 +77,20 @@ body,html {
 	font-size:16px;
 	border:1px solid #f1f1f1;
 	color:var(--desat-text) !important;
-	transition: all 0.4s;
+	transition: all 0.2s;
 }
 #search input:focus {
 	box-shadow: 0px 0px 10px #d8d8d8;
-	transition: all 0.4s;
+	transition: all 0.3s;
 	color:var(--main-text) !important;
 }
 #search input:focus::-moz-placeholder {
 	color:#1d4059;
-	transition: all 0.4s;
+	transition: all 0.s;
 }
 #search input::-moz-placeholder {
 	color:#4b4949;
-	transition: all 0.4s;
+	transition: all 0.3s;
 }
 #contain {
 	position: relative;
@@ -161,27 +162,27 @@ a, a:visited, a:active, a:focus {
 	text-decoration: none;
 	outline:none;
 	color:var(--main-text);
-	transition: all 0.4s;
+	transition: all 0.2s;
 }
 #art .material-icons, #art a:hover {
 	color:var(--a);
-	transition: all 0.4s;
+	transition: all 0.3s;
 }
 #school .material-icons, #school a:hover {
 	color:var(--b);
-	transition: all 0.4s;
+	transition: all 0.3s;
 }
 #work .material-icons, #work a:hover {
 	color:var(--c);
-	transition: all 0.4s;
+	transition: all 0.3s;
 }
 #fun .material-icons, #fun a:hover {
 	color:var(--d);
-	transition: all 0.4s;
+	transition: all 0.3s;
 }
 #chan .material-icons, #chan a:hover {
 	color:var(--e);
-	transition: all 0.4s;
+	transition: all 0.3s;
 }
 #time {
 	margin-bottom:50px;
