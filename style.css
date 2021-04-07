@@ -29,8 +29,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -46,11 +46,11 @@ body,html {
 	height:100%;
 	width:100%;
 	-webkit-touch-callout: none;
-    -webkit-user-select: none; 
+    -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
-    -ms-user-select: none; 
-    user-select: none; 
+    -ms-user-select: none;
+    user-select: none;
 	font-family: Proxima Nova;
 }
 #home {
@@ -83,6 +83,7 @@ body,html {
 	box-shadow: 0px 0px 10px #d8d8d8;
 	transition: all 0.3s;
 	color:var(--main-text) !important;
+	outline:2px solid #d8d8d8; 
 }
 #search input:focus::-moz-placeholder {
 	color:#1d4059;
